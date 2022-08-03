@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Infinite draggable webgl slider.</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header class="head">
+  <a href="https://codepen.io/ReGGae/live/povjKxV" target="_blank" data-txt="fullscreen is best">
+    <div>LEEFONT STUDIO</div>
+  </a>
+  <div>
+    <a href="" target="_blank" data-txt="about">
+      <div>about</div>
+    </a>
+    <a href="" target="_blank" data-txt="contact">                     <div>contact</div>
+    </a>
+  </div>
+</header>
+
+<div class="slider | js-drag-area">
+  <div class="slider__inner | js-slider">
+    <div class="slide | js-slide">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="https://images.pexels.com/photos/1115167/pexels-photo-1115167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" crossorigin="anonymous" draggable="false">
+      </div>
+    </div>
+    <div class="slide | js-slide" style="left: 120%;">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="https://images.pexels.com/photos/3603453/pexels-photo-3603453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" crossorigin="anonymous" draggable="false">
+      </div>
+    </div>
+    <div class="slide | js-slide" style="left: 240%;">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="https://images.pexels.com/photos/3716873/pexels-photo-3716873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" crossorigin="anonymous" draggable="false">
+      </div>
+    </div>
+    <div class="slide | js-slide" style="left: 360%;">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="https://images.pexels.com/photos/2157242/pexels-photo-2157242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" crossorigin="anonymous" draggable="false">
+      </div>
+    </div>
+    <div class="slide | js-slide" style="left: 480%;">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="https://images.pexels.com/photos/1441653/pexels-photo-1441653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""crossorigin="anonymous"  draggable="false">
+      </div>
+    </div>
+    <div class="slide | js-slide" style="left: 600%;">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="https://images.pexels.com/photos/1115175/pexels-photo-1115175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" crossorigin="anonymous" draggable="false">
+      </div>
+    </div>
+    <div class="slide | js-slide" style="left: 720%;">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="https://images.pexels.com/photos/2481630/pexels-photo-2481630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" crossorigin="anonymous" draggable="false">
+      </div>
+    </div>
+    <div class="slide | js-slide" style="left: 840%;">
+      <div class="slide__inner | js-slide__inner">
+         <img class="js-slide__img" src="https://images.pexels.com/photos/2321188/pexels-photo-2321188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" crossorigin="anonymous" draggable="false">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="titles">
+  <div class="titles__title titles__title--proxy">Lorem ipsum</div>
+  <div class="titles__list | js-titles">
+    <div class="titles__title | js-title">TYPE</div>
+    <div class="titles__title | js-title">CHINA</div>
+    <div class="titles__title | js-title">JAPAN</div>
+    <div class="titles__title | js-title">CHINA</div>
+    <div class="titles__title | js-title">HONGKONG</div>
+    <div class="titles__title | js-title">JAPAN</div>
+    <div class="titles__title | js-title">USA</div>
+    <div class="titles__title | js-title">HONGKONG</div>
+    <div class="titles__title | js-title">TYPEDESIGN</div>
+  </div>
+</div>
+  
+<div class="progress">
+  <div class="progress__line | js-progress-line"></div>
+  <div class="progress__line | js-progress-line-2"></div>
+</div>
+<!-- partial -->
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
